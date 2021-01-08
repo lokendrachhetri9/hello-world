@@ -27,6 +27,20 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+           
+    <repository>
+		<id>maven-nexus-repo</id>
+		<name>Internal Releases</name>
+		<url>http://3.238.249.52:8081/repository/maven-releases/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>maven-nexus-repo</id>
+		<name>Internal Releases</name>
+		<url>http://3.238.249.52:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+       
+           
   </distributionManagement>
 
   <build>
